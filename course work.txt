@@ -1,0 +1,90 @@
+course work
+Function main
+	Motor On
+	Call pick_up
+	Call drop_point1
+	Call drop_point2
+	Call drop_point3
+	
+	
+	Motor Off
+	
+	
+	
+	
+	
+
+Fend
+
+Function pick_up
+	Go homestart
+	Wait 2
+	Off 11
+	Go pickuppoint +Z(100) CP
+	Wait 2
+	Go pickuppoint
+	On 11
+	Wait 2
+	Go pickuppoint +Z(100) CP
+	
+	
+	
+	
+	
+	
+	
+	
+Fend
+Function drop_point1
+
+	
+	Go droppoint1 +Z(100) CP
+	Wait 2
+	Go droppoint1
+	Off 11
+	Go droppoint1 +Z(100) CP
+	
+	
+	
+	
+
+	
+Fend
+Function drop_point2
+	Go pickuppoint +Z(100) CP
+	Go pickuppoint
+	Go pickuppoint +Z(100) CP
+	Go droppoint2 +Z(100) CP
+	Wait 2
+	Go droppoint2
+	Off 11
+	Go droppoint2 +Z(100) CP
+	
+	
+	
+	
+	
+	
+Fend
+Function drop_point3
+	Go pickuppoint +Z(100) CP
+	Go pickuppoint
+	Go pickuppoint +Z(100) CP
+	
+	Go droppoint3 +Z(100) CP
+	Wait 2
+	Go droppoint3
+	Off 11
+	Go droppoint3 +Z(100) CP
+	Go homestart
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Fend
+
